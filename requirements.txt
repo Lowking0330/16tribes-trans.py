@@ -1,0 +1,5 @@
+streamlit
+pandas
+requests
+pydub
+gradio_client
