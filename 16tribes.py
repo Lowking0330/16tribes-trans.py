@@ -217,7 +217,7 @@ tab1, tab2, tab3 = st.tabs(["🚀 快速處理下載", "✍️ 專業同步校�
 with tab1:
     st.header("全族語快速生成模式")
     sel_lang = st.selectbox("請選擇目標族語：", list(LANG_MATRIX.keys()))
-    file = st.file_uploader("上傳影音檔案：", type=['mp4', 'wav', 'mp3'])
+    file = st.file_uploader("上傳影音檔案：", type=['mp4', 'wav', 'mp3', 'm4a'])
     if st.button("🚀 開始處理"):
         if file:
             with st.spinner(f"正在分析【{sel_lang}】..."):
